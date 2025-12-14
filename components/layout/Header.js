@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import ThemeToggle from '../common/themeToggle';
+import ThemeToggle from '../common/ThemeToggle';
 
 export default function Header({ setIsMenuOpen }) {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
